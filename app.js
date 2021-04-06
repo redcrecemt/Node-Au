@@ -34,11 +34,11 @@ app.get('/logout', requireAuth, (req, res) => {
     res.redirect("/login")
 });
 
-app.get('/', requireAuth, (req, res) => {
+app.get('/',  (req, res) => {
     res.render('home', {Title: 'Home'});
 });
 
-app.get('/smoothies', requireAuth, (req, res) => {
+app.get('/smoothies',  (req, res) => {
     res.render('smothies', {Title: 'Smoothies'});
 });
 app.use(authRoute)

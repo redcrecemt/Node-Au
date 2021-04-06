@@ -15,7 +15,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "debug": "node  app.js"
+    "debug": "nodemon  app.js",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",

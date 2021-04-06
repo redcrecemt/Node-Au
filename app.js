@@ -28,7 +28,7 @@ app.use(cookieParser());
 //     .catch((err) => {
 //         console.log(err)
 //     });
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 3002);
 app.get('/logout', requireAuth, (req, res) => {
     res.cookie('jwt-auth', '', {maxAge: 1});
     res.redirect("/login")

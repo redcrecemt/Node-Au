@@ -1,7 +1,6 @@
 {
-  "name": "node-express-jwt-auth",
+  "name": "express-jwt-auth",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "dependencies": {
     "bcrypt": "^5.0.0",
@@ -20,5 +19,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redcrecemt/Node-Au.git"
+  },
+  "bugs": {
+    "url": "https://github.com/redcrecemt/Node-Au/issues"
+  },
+  "homepage": "https://github.com/redcrecemt/Node-Au#readme",
+  "description": ""
 }
